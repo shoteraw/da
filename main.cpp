@@ -4,7 +4,7 @@
 int main(int argc, char** argv){
 	char* str =(char*)malloc(seziof(char)* SIZE;
 	printf("ENTER YOUR NAME:\n");
-	scanf("%s", str);
+	str=gets(str);
 	printf("HEllo");
 	return 0;
 }
